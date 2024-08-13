@@ -1,0 +1,3 @@
+Developed simple web pages in HTML using Thymeleaf templates with Spring Web MVC, created a web controller to handle requests, and managed dependencies in pom.xml, running the project as a Maven application. Created a model entity called Employee, added Hibernate ORM dependency
+for database interactions, and incorporated Bean Validation with Hibernate Validator to validate properties such as email using @NotEmpty and regex patterns. Used @Valid annotation for method level validation, and defined the error messages in the view using Thymeleaf tags. Also implemented
+Spring Security, configured In-Memory Authentication to store user information, registered SecurityFilterChain for URL configuration,  and used PasswordEncoder to secure plain text passwords
